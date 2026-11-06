@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prof Kids – 500 Atividades de Alfabetização</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff8e7;--ink:#24305e;--mut:#59638a;--card:#fff;--line:#f1e2b8;--blue:#2f6bff;--yel:#ffc933;--grn:#17a673;--red:#ff4d5e;--pink:#ff7ab6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#161a30;--ink:#f6f2e6;--mut:#b6bdd8;--card:#222849;--line:#343c66}}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.55 'Nunito',system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:'Baloo 2','Nunito',sans-serif;line-height:1.1;margin:0 0 .45em;font-weight:800}
+.w{max-width:760px;margin:0 auto;padding:0 20px}section{padding:46px 0}.alt{background:var(--card)}
+h1{font-size:clamp(34px,8vw,54px)}h2{font-size:clamp(27px,6vw,38px);text-align:center}
+.hl{background:var(--yel);color:#24305e;padding:0 .18em;border-radius:8px}
+.bar{background:var(--red);color:#fff;text-align:center;font-weight:800;padding:10px;font-size:15px}
+.sub{font-size:20px;color:var(--mut)}.c{text-align:center}
+.btn{display:block;text-align:center;background:var(--grn);color:#fff;font-weight:800;font-size:21px;padding:18px 16px;border-radius:18px;text-decoration:none;box-shadow:0 6px 0 #0d7a52;margin:22px 0 10px;animation:p 2s 2s 3}
+.btn:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+@keyframes p{50%{transform:scale(1.03)}}@media(prefers-reduced-motion:reduce){.btn{animation:none}}
+.safe{text-align:center;font-size:14px;color:var(--mut)}
+.art{width:100%;height:auto;display:block;margin:10px auto}
+.badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0}
+.badges span{background:var(--card);border:2px solid var(--line);border-radius:99px;padding:6px 14px;font-weight:800;font-size:14px}
+.list{list-style:none;padding:0;margin:0}.list li{padding:11px 0 11px 40px;position:relative;border-bottom:1px solid var(--line)}.list li:last-child{border:0}
+.list li:before{content:"✓";position:absolute;left:0;top:10px;width:27px;height:27px;border-radius:50%;background:var(--grn);color:#fff;text-align:center;font-weight:800;line-height:27px}
+.x li:before{content:"✕";background:var(--red)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:520px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:18px 20px;margin:12px 0}.alt .card{background:var(--bg)}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:12px}.ba .card{margin:0;text-align:center}.ba b{display:block;font-size:20px;font-family:'Baloo 2'}
+.stars{color:#f5a300;letter-spacing:2px}
+.rv-head{text-align:center;margin-bottom:18px}.rv-head h2{margin-bottom:6px}.rv-score{display:inline-flex;align-items:center;gap:10px;background:var(--card);border:2px solid var(--line);border-radius:99px;padding:8px 20px;font-weight:800;flex-wrap:wrap;justify-content:center}.rv-score b{font:800 30px 'Baloo 2'}.rv-score .stars{font-size:22px}
+.rv{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:2px solid var(--line);border-radius:20px;padding:18px;margin:14px 0;box-shadow:0 4px 0 var(--line)}.rv-av{flex:none;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;color:#fff;font:800 26px 'Baloo 2'}.rv-top{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}.rv-top b{font-size:19px}.rv-top .stars{font-size:18px}.rv p{margin:6px 0 8px;font-size:18px;line-height:1.5}.rv small{color:var(--mut);font-weight:700;font-size:14px}.rv small i{font-style:normal;color:var(--grn)}
+.price{background:var(--card);border:4px solid var(--blue);border-radius:24px;padding:26px 18px;text-align:center;position:relative}
+.tag{position:absolute;top:-16px;left:50%;transform:translateX(-50%);background:var(--red);color:#fff;font-weight:800;padding:4px 16px;border-radius:99px;font-size:14px;white-space:nowrap}
+.old{text-decoration:line-through;color:var(--mut);font-size:22px}.new{font-family:'Baloo 2';font-size:70px;font-weight:800;color:var(--grn);line-height:1}
+.timer{display:inline-block;background:var(--ink);color:var(--bg);font:800 28px 'Baloo 2';padding:4px 18px;border-radius:12px;margin:10px 0}
+details{background:var(--bg);border:2px solid var(--line);border-radius:14px;padding:14px 18px;margin:10px 0}summary{font-weight:800;cursor:pointer}details p{margin:10px 0 0;color:var(--mut)}
+footer{text-align:center;font-size:13px;color:var(--mut);padding:30px 20px 110px}
+.sticky{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));z-index:20}.sticky .btn{margin:0;padding:13px;font-size:18px;animation:none}
+</style></head><body>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+<g id="star"><path d="M0-14 4-4 15-4 6 3 9 14 0 7-9 14-6 3-15-4-4-4z" fill="#ffc933" stroke="#e0a800" stroke-width="2" stroke-linejoin="round"/></g>
+<g id="kid"><circle cx="0" cy="0" r="44" fill="#ffd7b0"/><path d="M-46-6C-48-50 48-50 46-6 30-26-30-26-46-6z" fill="#5a3a22"/><circle cx="-15" cy="4" r="5" fill="#24305e"/><circle cx="15" cy="4" r="5" fill="#24305e"/><circle cx="-16" cy="2" r="1.8" fill="#fff"/><circle cx="14" cy="2" r="1.8" fill="#fff"/><path d="M-14 20Q0 34 14 20" stroke="#24305e" stroke-width="4" fill="#fff" stroke-linecap="round"/><circle cx="-28" cy="16" r="7" fill="#ff9aa8" opacity=".7"/><circle cx="28" cy="16" r="7" fill="#ff9aa8" opacity=".7"/></g>
+<g id="pencil"><rect x="0" y="0" width="110" height="18" rx="3" fill="#ffc933"/><rect x="0" y="0" width="18" height="18" rx="3" fill="#ff7ab6"/><path d="M110 0 140 9 110 18z" fill="#f4d3a6"/><path d="M130 5 140 9 130 13z" fill="#24305e"/></g>
+</defs></svg>
+
+<div class="bar">⏰ Oferta de hoje termina em <span id="t1">15:00</span></div>
+
+<header><div class="w" style="padding-top:28px">
+<div class="c"><div style="display:inline-block;background:#ffc933;color:#24305e;font:800 24px 'Baloo 2';padding:6px 24px;border-radius:99px;margin-bottom:10px">🎓 Prof Kids</div><br><div style="display:inline-block;background:#2ec4b6;color:#fff;font-weight:800;font-size:14px;padding:5px 16px;border-radius:99px">🏆 TOP 1 EM VENDAS de atividades infantis</div></div>
+<h1 class="c">Seu filho aprendendo a ler <span class="hl">brincando</span>, em poucas semanas</h1>
+<p class="sub c">500 atividades de alfabetização com sílabas simples, prontas para imprimir. Sem choro, sem pressão e sem você precisar ser professor(a).</p>
+
+<svg class="art" viewBox="0 0 640 400" role="img" aria-label="Atividades de alfabetização do Prof Kids">
+<circle cx="320" cy="210" r="185" fill="#ffe08a" opacity=".55"/>
+<g transform="rotate(-9 150 220)"><rect x="55" y="80" width="190" height="250" rx="12" fill="#fff" stroke="#e3d3a4" stroke-width="3"/><text x="150" y="122" text-anchor="middle" font-family="Baloo 2,sans-serif" font-weight="800" font-size="22" fill="#2f6bff">Ligue a sílaba</text>
+<text x="85" y="175" font-family="Baloo 2" font-weight="800" font-size="38" fill="#24305e">BA</text><text x="85" y="235" font-family="Baloo 2" font-weight="800" font-size="38" fill="#24305e">BE</text><text x="85" y="295" font-family="Baloo 2" font-weight="800" font-size="38" fill="#24305e">BI</text>
+<circle cx="180" cy="165" r="8" fill="#ff4d5e"/><circle cx="180" cy="225" r="8" fill="#17a673"/><circle cx="180" cy="285" r="8" fill="#2f6bff"/><path d="M180 165C205 190 205 205 180 225M180 225C205 250 205 265 180 285" stroke="#ff7ab6" stroke-width="3" fill="none" stroke-dasharray="5 5"/></g>
+<g transform="rotate(8 490 220)"><rect x="395" y="80" width="190" height="250" rx="12" fill="#fff" stroke="#e3d3a4" stroke-width="3"/><text x="490" y="122" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="17" fill="#17a673">Complete a palavra</text>
+<circle cx="490" cy="190" r="48" fill="#ffe9ef"/><text x="490" y="203" text-anchor="middle" font-size="46">🐱</text>
+<text x="490" y="285" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="40" fill="#24305e">GA<tspan fill="#ff4d5e">_ _</tspan></text></g>
+<g><rect x="215" y="40" width="210" height="290" rx="14" fill="#fff" stroke="#e3d3a4" stroke-width="3"/><rect x="215" y="40" width="210" height="50" rx="14" fill="#2f6bff"/><rect x="215" y="76" width="210" height="14" fill="#2f6bff"/>
+<text x="320" y="74" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="26" fill="#fff">Prof Kids</text>
+<text x="320" y="150" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="56" fill="#ff4d5e">500</text>
+<text x="320" y="182" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="20" fill="#24305e">atividades de</text>
+<text x="320" y="208" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="20" fill="#24305e">alfabetização</text>
+<text x="320" y="262" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="22" fill="#17a673">BA BE BI BO BU</text>
+<g transform="translate(320 305)"><use href="#star" x="-50"/><use href="#star"/><use href="#star" x="50"/></g></g>
+<g transform="translate(75 330) scale(1.05)"><use href="#kid"/></g>
+<g transform="translate(440 372) rotate(-12) scale(.8)"><use href="#pencil"/></g>
+<g transform="translate(590 60)"><circle r="46" fill="#ff4d5e"/><text y="-4" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="16" fill="#fff">SÓ</text><text y="22" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="26" fill="#fff">12,90</text></g>
+</svg>
+
+<div class="safe">🔒 Compra segura · Acesso imediato · 7 dias de garantia</div>
+</div></header>
+
+<section style="padding-top:14px"><div class="w">
+<div class="rv-head"><h2>Quem usa, aprova! 💛</h2>
+<div class="rv-score"><b>4,9</b><span class="stars">★★★★★</span><span>+2.000 avaliações</span></div></div>
+<div class="rv"><div class="rv-av" style="background:#ff7ab6">M</div><div><div class="rv-top"><b>Mariana S.</b><span class="stars">★★★★★</span></div><p>Minha filha de 5 anos já está juntando as sílabas sozinha. Em duas semanas a evolução foi enorme!</p><small>Mãe da Alice · <i>✔ Verificado</i></small></div></div>
+<div class="rv"><div class="rv-av" style="background:#2f6bff">C</div><div><div class="rv-top"><b>Carlos E.</b><span class="stars">★★★★★</span></div><p>Sou avô e consegui ajudar meu neto sem dificuldade. As atividades são bem explicadas e ele pede mais.</p><small>Avô do Pedro · <i>✔ Verificado</i></small></div></div>
+<div class="rv"><div class="rv-av" style="background:#17a673">J</div><div><div class="rv-top"><b>Profª Juliana R.</b><span class="stars">★★★★★</span></div><p>Uso com minha turma de alfabetização e funcionou muito bem. Material lindo e prático de imprimir.</p><small>Professora · <i>✔ Verificado</i></small></div></div>
+</div></section>
+
+<section class="alt"><div class="w">
+<h2>Você reconhece alguma dessas situações?</h2>
+<ul class="list x">
+<li>Seu filho já tem idade para ler e ainda troca ou esquece as letras</li>
+<li>Ele desanima, chora ou foge na hora da lição</li>
+<li>Você perde horas procurando atividade solta na internet</li>
+<li>Bate o medo de ele ficar para trás na escola</li>
+</ul>
+<p class="c" style="font-weight:800;font-size:21px;margin-top:22px">A boa notícia: não é falta de capacidade. É falta de um caminho simples, passo a passo.</p>
+</div></section>
+
+<section><div class="w">
+<h2>Conheça o Prof Kids</h2>
+<p class="sub c">Atividades que começam nas sílabas mais fáceis e levam a criança, no ritmo dela, até as primeiras palavras.</p>
+<svg class="art" viewBox="0 0 640 230" role="img" aria-label="Exemplos de atividades">
+<g><rect x="10" y="10" width="145" height="200" rx="12" fill="#fff" stroke="#e3d3a4" stroke-width="3"/><text x="82" y="42" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="13" fill="#2f6bff">Cubra o pontilhado</text><text x="82" y="130" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="78" fill="none" stroke="#ff7ab6" stroke-width="3" stroke-dasharray="6 6">MA</text><text x="82" y="190" text-anchor="middle" font-size="30">✏️</text></g>
+<g><rect x="175" y="10" width="145" height="200" rx="12" fill="#fff" stroke="#e3d3a4" stroke-width="3"/><text x="247" y="42" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="13" fill="#17a673">Qual é a sílaba?</text><text x="247" y="105" text-anchor="middle" font-size="52">🍌</text><rect x="195" y="130" width="40" height="40" rx="8" fill="#ffe9ef" stroke="#ff7ab6" stroke-width="2"/><text x="215" y="159" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="24" fill="#24305e">BA</text><rect x="260" y="130" width="40" height="40" rx="8" fill="#e9f2ff" stroke="#2f6bff" stroke-width="2"/><text x="280" y="159" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="24" fill="#24305e">NA</text></g>
+<g><rect x="340" y="10" width="145" height="200" rx="12" fill="#fff" stroke="#e3d3a4" stroke-width="3"/><text x="412" y="42" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="13" fill="#ff4d5e">Pinte as sílabas</text><g font-family="Baloo 2" font-weight="800" font-size="26" fill="#24305e" text-anchor="middle"><rect x="360" y="60" width="50" height="40" rx="8" fill="#ffe08a"/><text x="385" y="88">PA</text><rect x="415" y="60" width="50" height="40" rx="8" fill="#e9f2ff"/><text x="440" y="88">PE</text><rect x="360" y="110" width="50" height="40" rx="8" fill="#e9f2ff"/><text x="385" y="138">PI</text><rect x="415" y="110" width="50" height="40" rx="8" fill="#ffe08a"/><text x="440" y="138">PO</text></g><text x="412" y="190" text-anchor="middle" font-size="26">🎨</text></g>
+<g><rect x="505" y="10" width="125" height="200" rx="12" fill="#fff" stroke="#e3d3a4" stroke-width="3"/><text x="567" y="42" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="13" fill="#2f6bff">Forme palavras</text><text x="567" y="105" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="30" fill="#24305e">BO+LA</text><text x="567" y="145" text-anchor="middle" font-size="40">⚽</text><text x="567" y="190" text-anchor="middle" font-family="Baloo 2" font-weight="800" font-size="26" fill="#17a673">= BOLA</text></g>
+</svg>
+<ul class="list">
+<li><b>500 atividades</b> com sílabas simples, em ordem de dificuldade</li>
+<li><b>Ligar, pintar, completar e cobrir:</b> ele aprende sem perceber que está estudando</li>
+<li><b>Pronto para imprimir</b> em folha A4, é só baixar e usar</li>
+<li><b>Serve para casa e sala de aula:</b> pais, mães, professores e avós</li>
+<li><b>Acesso imediato</b> depois da compra, direto no celular ou e-mail</li>
+</ul>
+<a class="btn" href="#oferta">QUERO COMEÇAR HOJE</a>
+</div></section>
+
+<section class="alt"><div class="w">
+<h2>A diferença que você vai ver em casa</h2>
+<div class="ba">
+<div class="card" style="border-color:var(--red)"><svg class="art" style="max-width:110px" viewBox="-60 -60 120 120"><use href="#kid"/><path d="M-14 20Q0 8 14 20" stroke="#24305e" stroke-width="4" fill="none" stroke-linecap="round"/></svg><b style="color:var(--red)">Antes</b>Desanimado, com medo de errar e enrolando para fazer a lição</div>
+<div class="card" style="border-color:var(--grn)"><svg class="art" style="max-width:110px" viewBox="-60 -60 120 120"><use href="#kid"/></svg><b style="color:var(--grn)">Depois</b>Animado, orgulhoso e pedindo “mais uma atividade!”</div>
+</div>
+<div class="grid" style="margin-top:20px">
+<div class="card"><b>⏱️ Rotina leve</b><br>10 minutinhos por dia já fazem diferença.</div>
+<div class="card"><b>🎯 Passo a passo</b><br>Você sabe sempre qual é a próxima atividade.</div>
+<div class="card"><b>🖨️ Imprima quantas vezes quiser</b><br>Serve para mais de um filho ou para a turma toda.</div>
+<div class="card"><b>💰 Economia</b><br>Muito mais barato que aula particular ou livros avulsos.</div>
+</div>
+</div></section>
+
+<section class="alt" id="oferta"><div class="w">
+<h2>Oferta especial de hoje</h2>
+<div class="price"><span class="tag">⏳ TEMPO LIMITADO</span>
+<ul class="list" style="text-align:left;margin-bottom:14px"><li>500 atividades de alfabetização com sílabas simples</li><li>Acesso imediato por e-mail</li><li>Pronto para imprimir, para usar quantas vezes quiser</li><li>7 dias de garantia incondicional</li></ul>
+<div class="old">De R$37,90</div><div>por apenas</div><div class="new">R$12,90</div>
+<div style="color:var(--mut)">pagamento único · sem mensalidade</div>
+<div class="timer" id="t2">15:00</div><div style="font-size:14px;color:var(--mut)">para garantir este preço</div>
+<a class="btn" href="https://pay.cakto.com.br/39fgra7_1183877">SIM! QUERO POR R$12,90</a>
+<div class="safe">🔒 Pagamento 100% seguro · Receba na hora</div></div>
+</div></section>
+
+<section><div class="w"><div class="card c" style="border:3px solid var(--grn)"><div style="font-size:48px">🛡️</div><h3>Garantia de 7 dias</h3>Se não gostar, devolvemos 100% do seu dinheiro, sem burocracia. Você só tem a ganhar.</div></div></section>
+
+<section class="alt"><div class="w"><h2>Dúvidas frequentes</h2>
+<details><summary>Como recebo o material?</summary><p>Logo após a confirmação do pagamento você recebe o acesso no e-mail e baixa na hora.</p></details>
+<details><summary>Preciso imprimir tudo?</summary><p>Não. Imprima só o que for usar a cada dia.</p></details>
+<details><summary>Para qual idade serve?</summary><p>Ideal para crianças em fase de alfabetização, geralmente de 4 a 8 anos.</p></details>
+<details><summary>É mensalidade?</summary><p>Não. É pagamento único de R$12,90 e o material é seu.</p></details>
+<details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia para pedir o reembolso.</p></details>
+<a class="btn" href="https://pay.cakto.com.br/39fgra7_1183877">QUERO MEU ACESSO AGORA</a></div></section>
+
+<footer>© Prof Kids · Material digital, nenhum item físico será enviado.</footer>
+<div class="sticky"><a class="btn" href="#oferta">🔥 Garantir por R$12,90</a></div>
+<script>
+(function(){var s=900,a=document.getElementById('t1'),b=document.getElementById('t2');
+try{var k=sessionStorage.getItem('pk'),n=Date.now();if(!k||+k<n){k=n+s*1000;sessionStorage.setItem('pk',k)}s=Math.max(0,Math.round((+k-n)/1000))}catch(e){}
+function f(){var t=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');a.textContent=b.textContent=t;if(s>0)s--}
+f();setInterval(f,1000)})();
+</script></body></html>
